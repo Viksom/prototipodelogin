@@ -1,10 +1,12 @@
 body {
     background-image: linear-gradient(to right, rgb(176, 207, 0), rgb(0, 0, 87), rgb(255, 110, 134));
+    padding: 0px 20px 0px;
 }
 
 main {
     display: flex;
-    width: 90vw;
+    max-width: 1000px;
+    min-width: 100px;
     height: 90vh;
     margin: auto;
     margin-top: 30px;
@@ -158,7 +160,11 @@ main {
     cursor: pointer;
 }
 
-@media screen and (max-width: 630px) {
+@media screen and (max-width: 705px) {
+
+    body {
+        padding: 0px;
+    }
     
     .right {
         position: absolute;
