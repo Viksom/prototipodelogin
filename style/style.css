@@ -84,6 +84,16 @@ main {
     animation: icone 20s infinite ease-in-out;
 }
 
+.right #icone img {
+    width: 75%;
+    display: block;
+    margin: auto;
+    padding: 8px;
+    margin-bottom: 0px;
+    position: relative;
+    bottom: -11px;
+}
+
 @keyframes icone {
     0% {
         background-color: rgba(0, 0, 255, 0.192);
